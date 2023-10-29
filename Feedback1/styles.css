@@ -1,0 +1,87 @@
+/* Estilo general para la página */
+body {
+    background-color: #f4d3c3; /* Marrón cálido para el fondo principal */
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Estilo de la tabla principal */
+#wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Alineación y estilo del encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee9da; /* Color muy claro para encabezado */
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Lora", serif;
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Añadir espacio y estilo a las secciones */
+section {
+    text-align: center;
+    background-color: #D2B48C; /* Beige para las secciones */
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #eee9da; /* Color de borde más claro */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #f4d3c3; /* Marrón cálido para el fondo del pie de página */
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    color: #6b4e32; /* Color marrón para los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las secciones de productos */
+.cell-with-padding {
+    padding: 10px;
+    background-color: #eee9da; /* Color para las celdas de productos */
+}
+
+/* Estilos para los títulos y descripciones de productos */
+h3 {
+    font-weight: bold;
+    font-family: "Lora", serif;
+    color: #6b4e32; /* Marrón oscuro para los títulos */
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #394240; /* Verde suave para el texto de productos */
+}
+
+/* Estilo para el mapa en el footer */
+footer iframe {
+    width: 100%;
+    height: 150px;
+    border: solid #6b4e32 5px;
+}
