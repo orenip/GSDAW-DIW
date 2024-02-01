@@ -1,0 +1,33 @@
+
+    /* 1. Eliminar el borde gris por defecto */
+    body, div, p {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 2. Borde inferior de 1 píxel y azul (#004C99) para el elemento #menu */
+    #menu {
+        border-bottom: 1px solid #004C99;
+    }
+
+    /* 3. Borde de 1 píxel y gris claro (#C5C5C5) para el elemento #noticias */
+    #noticias {
+        border: 1px solid #C5C5C5;
+    }
+
+    /* 4. Borde discontinuo de 1 píxel y de color #CC6600 para el elemento #publicidad */
+    #publicidad {
+        border: 1px dashed #CC6600;
+    }
+
+    /* 5. Borde de 1 píxel y de color #CC6600 para el lateral formado por el elemento #secundario */
+    #secundario {
+        border: 1px solid #CC6600;
+    }
+
+    /* 6. Bordes superior e inferior de 1 píxel y color gris claro #C5C5C5 para el elemento #pie */
+    #pie {
+        border-top: 1px solid #C5C5C5;
+        border-bottom: 1px solid #C5C5C5;
+    }

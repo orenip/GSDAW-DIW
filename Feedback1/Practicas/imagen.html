@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posicionamiento con CSS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    #contenedor {
+      min-width: 700px;
+      max-width: 1000px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    #cajaCentral {
+      min-width: 550px;
+      min-height: 220px;
+      margin: 0.3em 0 0.2em;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #findLove {
+      letter-spacing: 0.3em;
+    }
+
+    #maryKay {
+      letter-spacing: 0.2em;
+    }
+
+    #imagenRegalo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 100px; /* ajusta el tamaño según sea necesario */
+      height: auto;
+    }
+
+    /* Estilos para las otras imágenes */
+    #imagenCajaNavidad {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 100px; /* ajusta el tamaño según sea necesario */
+      height: auto;
+    }
+
+    #imagenOnda {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150px; /* ajusta el tamaño según sea necesario */
+      height: auto;
+    }
+
+    #imagenPuntoBlanco {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 80px; /* ajusta el tamaño según sea necesario */
+      height: auto;
+    }
+
+    #imagenRayaBlanca {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      width: 120px; /* ajusta el tamaño según sea necesario */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="contenedor">
+    <div id="cajaCentral">
+      <h1 id="findLove">FIND LOVE INSIDE</h1>
+      <h1 id="maryKay">MARY KAY</h1>
+    </div>
+    <img id="imagenRegalo" src="cajaregalo.png" alt="Caja de Regalo">
+    <img id="imagenCajaNavidad" src="cajanavidad.png" alt="Caja de Navidad">
+    <img id="imagenOnda" src="onda.png" alt="Onda">
+    <img id="imagenPuntoBlanco" src="puntoblanco.png" alt="Punto Blanco">
+    <img id="imagenRayaBlanca" src="rayablanca.png" alt="Raya Blanca">
+  </div>
+</body>
+</html>
