@@ -1,0 +1,7 @@
+footer p:first-of-type:hover + p {
+    display: block;
+}
+
+footer p:last-of-type {
+    display: none;
+}

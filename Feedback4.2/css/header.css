@@ -1,0 +1,27 @@
+header h1 {
+    font-family: Alegreya;
+    text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
+    margin: 10px;
+}
+
+header h2:first-of-type {
+    font-family: Antonio;
+    margin: 10px;
+}
+
+header h2:first-of-type:hover {
+    font-family: Montserrat;
+}
+
+header img {
+    animation: moveRight 5s infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}

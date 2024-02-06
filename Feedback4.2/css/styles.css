@@ -1,0 +1,90 @@
+@font-face {
+   font-family: 'Montserrat';
+   src: url('Montserrat-Regular.ttf') format('truetype');
+}
+
+/* Para dispositivos entre 320px y 479px */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+   header img {
+       display: none;
+   }
+   body {
+       background-color: green;
+   }
+}
+
+/* Para dispositivos de al menos 480px */
+@media only screen and (min-width: 480px) {
+   body {
+       background-color: blueviolet;
+   }
+   header h2:nth-of-type(2) {
+       font-size: 14px;
+   }
+   article {
+       font-size: 14px;
+   }
+}
+
+/* Para dispositivos de al menos 768px */
+@media only screen and (min-width: 768px) {
+   body {
+       background-color: navy;
+   }
+   aside,
+   article {
+       display: inline-block;
+       vertical-align: top;
+   }
+   aside {
+       width: 30%;
+   }
+   article {
+       width: calc(100% - 30%); /* Ancho ajustado para evitar superposiciones */
+   }
+}
+
+/* Para dispositivos de al menos 1024px */
+@media only screen and (min-width: 1024px) {
+   body {
+       background-color: black;
+       min-height: 100vh; /* Asignamos una altura mínima igual a la altura de la ventana */
+   }
+   aside {
+       width: 20%;
+       box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+       float: left; /* Hacemos que el aside flote a la izquierda */
+   }
+   article {
+      display: inline-block;
+       width: 55%; /* Establecemos el ancho del artículo */
+       font-size: 16px; /* Tamaño de letra ajustado */
+       box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+   }
+   section {
+      float: right; /* Hacemos que la section flote a la derecha */
+       width: 20%;
+       box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+   }
+   footer {
+      flex-shrink: 0; /* Evita que el footer se contraiga */
+      margin-top: auto; /* Empuja el footer hacia abajo */
+      background-color: black; /* Fondo negro */
+      color: white; /* Texto blanco */
+      text-align: center; /* Texto centrado */
+      padding: 20px; /* Añade un poco de espacio alrededor del contenido del footer */
+  }
+
+   /* Ajustar color de letra a blanco */
+   * {
+       color: white;
+   }
+}
+
+/* Para dispositivos de al menos 768px */
+@media only screen and (min-width: 768px) {
+   aside img {
+       width: 100%; /* Ajustamos el ancho de la imagen */
+       border: 2px solid yellow; /* Añadimos el borde amarillo */
+   }
+}

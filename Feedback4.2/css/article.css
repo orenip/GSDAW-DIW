@@ -1,0 +1,12 @@
+article {
+    font-family: Alegreya;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article li {
+    margin: 10px;
+}
