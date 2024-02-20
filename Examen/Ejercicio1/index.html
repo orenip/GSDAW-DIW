@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- AÑADIMOS LA HOJA DE ESTILOS DE BOOTSRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- AÑADIMOS LA HOJA DE ESTILOS PROPIA CON LOS TAMAÑOS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" title="style" />
+    <title>Ejercicio 1 Boostrapt</title>
+</head>
+<body>
+    <h1>José Antonio López Piñero</h1>
+    <div class="container">
+        <!-- CABECERA - LE ASIGNAMOS EL COLOR NARANJA (WARNING) Y UN BORDE BLANCO -->
+        <div class="row header bg-warning border border-white"></div>
+
+        <!-- CONTENEDOR PRINCIPAL QUE ALOJARA TODOS LOS BLOQUES DE TIPO ROW  -->
+        <div class="row">
+            <!-- BLOQUE ROJO, LE DECIMOS QUE OCUPE SIEMPRE SEA EL TAMAÑO QUE SEA 3 CELDAS, LE PONEMOS COLOR DANGER Y EL BORDE BLANCO -->
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 bloque-rojo bg-danger border-right border-white"></div>
+            <!-- CONTENEDOR LATERAL (ACOGE AL RESTO DE CONTENEDORES Y OCUPARA SIEMPRE 9 CELDAS PORQUE 3 LAS OCUPA EL ROJO) -->
+            <div class="col-md-9 col-lg-9 col-xl-9 col-sm-9">
+                <!-- CONTENEDOR TIPO ROW (POR FILAS) -->
+                <div class="row">
+                    <!-- BLOQUE GRIS QUE OCUPA TODO EL ANCHO DEL CONTENEDOR LATERAL, SIENDO 12  EN TODOS LOS TAMAÑOS -->
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 bloque-gris bg-secondary border border-white"> </div>
+                </div>
+                
+                <!-- SIGUIENTE CONTENEDOR CON 2 CONTENEDORES AZUL CLARO -->
+                <div class="row">
+                    <!-- ALOJA DOS CONTENEDORES DE 6 CELDAS EN TODOS LOS CASOS MENOS EN SM QUE OCUPAN 12 CADA UNO -->
+                    <!-- LE PONGO COLOR INFO PARA DIFERENCIARLOS DEL AZUL OSCURO QUE LE DARE COLOR PRIMARY -->
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 bloque-azul-claro bg-info border border-white"> </div>
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 bloque-azul-claro bg-info border border-white"> </div>
+                </div>
+
+                <!-- SIGUIENTE CONTENEDOR UNA FILA CON 6 SUBCONTENEDORES -->
+                <div class="row">
+                    <!-- CADA BLOQUE AZUL OCUPA 2 CELDAS EN TAMAÑOS MD-LG-XL, 4 CELDAS EN TAMAÑO SM  Y 6 EN COL  -->
+                    <!-- SE LE ASIGNA EL BORDE BLANCO  Y COLOR PRIMARY PARA DIFERENCIAR DEL ANTERIOR-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"> </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                </div>
+                <!-- SIGUIENTE CONTENEDOR UNA FILA CON 6 SUBCONTENEDORES -->
+                <div class="row">
+                     <!-- CADA BLOQUE AZUL OCUPA 2 CELDAS EN TAMAÑOS MD-LG-XL , 4 CELDAS EN TAMAÑO SM  Y 6 EN COL  -->
+                    <!-- SE LE ASIGNA EL BORDE BLANCO  Y COLOR PRIMARY PARA DIFERENCIAR DEL ANTERIOR-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"> </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 bloque-azul-oscuro bg-primary border border-white"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PIE DE PAGINA SE LE ASIGNA EL COLOR WARNING EN LA SIGUIENTE FILA CON EL BORDE BLANCO-->
+        <div class="row footer bg-warning border border-white"> </div>
+    </div>
+</body>
+</html>

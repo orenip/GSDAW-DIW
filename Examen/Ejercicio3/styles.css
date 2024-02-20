@@ -1,0 +1,81 @@
+/* PARA LOS COLORES HE UTILIZADO LA WEB https://htmlcolorcodes.com/es/ */
+
+/* TODO EL BODY USA EL TIPO DE LETRA "trebuchet ms" */
+body {
+    font-family: "Trebuchet MS";
+}
+
+/* LA TABLA USA BORDER-COLLAPSE:SEPARATE */
+table {
+    border-collapse: separate;
+    width: 100%;
+    /* Añadimos esto para que ocupe todo el ancho disponible */
+}
+
+/* AÑADIMOS EL FORMATO PARA LA CLASE DE LA PRIMERA COLUMNA
+FONDO: VERDE OSCURO
+LETRA: BLANCA*/
+/* USAMOS LA PROPIEDAD EMPTY-CELL EN HIDE PARA OCULTA LAS LAS QUE ESTEN VACIAS */
+.formato {
+    background-color: #6fb92a;
+    /* VERDE OSCURO */
+    color: white;
+    empty-cells: hide;
+    /* AÑADIR NEGRITA A LA LETRA */
+    font-weight: bold;
+}
+/* OCULTAR LAS CELDAS VACIAS Y PONER LOS TH DE COLOR VERDE OSCURO DE FONDO */
+th {
+    background-color: #6fb92a;
+    /* COLOR BLANCO PARA LAS LETRAS */
+    color: white;
+    empty-cells: hide;
+}
+/* DAR LAS PROPIEDADES DE BORDE Y ALINEACION DEL TEXTO Y BORDES A LOS TH Y TD */
+th, td {
+  
+    padding: 8px;
+    text-align: center;
+    /* BORDES REDONDEADOS */
+    border-radius: 5px;
+}
+/* DAR COLOR DE FONDO A TODOS LOS TD DE COLOR VERDE CLARO */
+td {
+    background-color: #c3e2ae;
+}
+
+/* AÑADIR LA IMAGEN A LOS QUE TENGAN LA CLASE CHECK */
+.check {
+    background-image: url('check.png');
+    background-repeat: no-repeat;
+    /* AlINEAR AL CENTRO */
+    background-position: center;
+}
+/*DIV DE PARA EL ID SERCIDOR DE COLOR VERDE CLARO CON PADDING 
+PARA NO ESTAR LA FRASE PEGADA A LOS BORDES Y BORDES REDONDEADOS */
+#servidor {
+    /* COLOR VERDE CLARO */
+    background-color: #6fb92a;
+    /* AÑADIR 10 PX DE PADDING */
+    padding: 10px;
+    /* PONER EL BORDE REDONDEADO */
+    border-radius: 10px;
+}
+
+/* LA ULTIMA FILA EL BACKGROUND BLANCA CON LA CLASS SINFONDO */
+.sinfondo {
+    background-color: white;
+    /* ELIMINAR BORDES */
+    border: none;
+    /* AÑADIR NEGRITA */
+    font-weight: bold;
+}
+
+/* AÑADIR FORMATO MAS GRANDE PARA LA CLASE SINFONDO NUMEROS */
+.sinfondo.numero {
+    font-size: 30px;
+    /* COLOR LETRA VERDE */
+    color: #6fb92a;
+    /* BORDE DE LA LETRA ROJO CLARO */
+    text-shadow: 1px 1px 1px red;
+}

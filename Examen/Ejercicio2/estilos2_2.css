@@ -1,0 +1,335 @@
+/* COMO ME ESTABA DANDO FALLO CON VARIAS COSAS DE IMAGEN LOGOS ETC, 
+HE COPIADO MI HOJA DE ESTILOS DEL EJERCICIO 1 Y DESDE ESTA VOY EDITANDO 
+LO NUEVO PARA EL EJERCIO 2 */
+
+
+ul, ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  border: none;
+}
+
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth> 901? "900px":"auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 2px solid #777;
+}
+
+#cabecera {
+  clear: both;
+}
+
+#menu {
+  clear: both;
+}
+
+#lateral {
+  float: left;
+  width: 20%;
+}
+
+#contenido {
+  float: right;
+  width: 78%;
+}
+
+#contenido #principal {
+  float: left;
+  width: 78%;
+}
+
+#contenido #secundario {
+  float: right;
+  width: 20%;
+}
+
+#pie {
+  clear: both;
+}
+
+#cabecera #logo {
+  float: left;
+}
+
+#cabecera #buscador {
+  float: right;
+}
+
+#menu ul#menu_principal li {
+  display: inline;
+  float: left;
+}
+
+#contenido #principal .articulo img {
+  width: 100px;
+  float: left;
+}
+
+#pie .enlaces {
+  float: left;
+}
+
+#pie .copyright {
+  float: right;
+}
+
+#cabecera, #menu, #lateral, #lateral #noticias, #lateral #publicidad, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  padding: .5em;
+  border: none;
+}
+
+#lateral {
+  padding: 0;
+}
+
+#cabecera {
+  padding: 1em;
+}
+
+#menu {
+  margin-bottom: .5em;
+  border-bottom: 1px solid hsl(210, 100%, 30%);
+  /* AÑADIMOS IMAGEN DE FONDO QUE ESTA EN LOCAL APARTADO 4*/
+  background: url('fondo_menu.gif') repeat-x;
+ 
+
+}
+
+#contenido {
+  width: 77%;
+  padding: 0;
+}
+
+#contenido #principal {
+  width: 73%;
+}
+
+#contenido #secundario {
+  border: 1px solid #C60;
+ 
+}
+
+
+#pie {
+  padding: .5em 0;
+  margin-top: 1em;
+  border-top: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  /* AÑADIMOS EL FONDO #F8F8F8 APARTADO 1 */
+  background: #F8F8F8;
+}
+
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+
+#contenido #principal .articulo img {
+  margin: .5em;
+}
+
+
+#lateral #noticias {
+  border: 1px solid #C5C5C5;
+  /* AÑADIMOS EL FONDO #F8F8F8 APARTADO 1 */
+  background: #F8F8F8;
+}
+
+#lateral #publicidad {
+  margin-top: 1em;
+  border: 1px dashed #C60;
+  /* AÑADIMOS COLOR DE FONDO #FFF6CD; APARTADO 2 */
+  background: #FFF6CD;
+}
+/* CREAMOS CONTENIDO SECUNDARIO PARA H2 APARTADO 3 */
+#contenido #secundario h2{
+  /* AÑADIMOS EL FONDO #DB905C */
+  background: #DB905C;
+  /* AÑADIMOS EL PADDING */
+  padding: .2em;
+  /* AÑADIMOS EL COLOR BLANCO A LAS H2 - APARTADO 7 */
+  color: white;
+}
+
+/* CREAMOS LA CABECERA H1 */
+#cabecera h1 {
+/* AÑADIMOS LA IMAGEN DEL LOGO APARTADO 5 */
+  background: url('logo.gif') no-repeat -5px -10px;
+}
+
+/* OCULTAMOS EL NOMBRE DEL H1 APARTADO 5 */
+#cabecera h1 span {
+  visibility: hidden;
+}
+
+
+/* === IMPORTANTE ===
+   A partir de aqu�, se pueden a�adir todos los estilos propios que 
+   sean necesarios.
+   ================= */
+#cabecera,
+#menu,
+#lateral,
+#lateral #noticias,
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+  border: none;
+}
+
+#lateral {
+  padding: 0;
+}
+
+#cabecera {
+  padding: 1em;
+}
+
+
+#cabecera h1 span {
+  visibility: hidden;
+}
+
+
+#contenido {
+  width: 77%;
+  padding: 0;
+}
+
+#contenido #principal {
+  width: 73%;
+}
+
+#contenido #secundario {
+  border: 1px solid #C60;
+}
+
+#contenido #secundario h2 {
+  background: #DB905C;
+  padding: .2em;
+}
+
+#pie {
+  padding: .5em 0;
+  margin-top: 1em;
+  border-top: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  background: #F8F8F8;
+}
+
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+
+#contenido #principal .articulo img {
+  margin: .5em;
+}
+
+#lateral #noticias {
+  border: 1px solid #C5C5C5;
+  background: #F8F8F8;
+}
+
+#lateral #publicidad {
+  margin-top: 1em;
+  border: 1px dashed #C60;
+  background: #FFF6CD;
+  /* APARTADO 5 */
+  /* AÑADIR COLOR #555 */
+  color: #555;
+}
+
+/*  EJERCICIO 2 */
+/* APARTADO 1 */
+/* CREAR EL BODY PARA DAR FORMATO A LA FUENTE Y COLOR */
+body {
+  /* TIPO DE LETRA ARIAL, TAMAÑO 9EM INTERLINEADO 1.4 */
+  font: .9em/1.4 Arial;
+  /* COLOR DE LA FUENTE NEGRO */
+  color: black;
+}
+/* APARTADO 2 */
+/* CREAR PARA MODIFICAR ELEMENTOS H2 DE ARTICULO  */
+#contenido #principal .articulo h2 {
+  /* AÑADIR COLOR #CC6600, TAMAÑO 1.6 EM INTERLINEADO 1,2 Y MARGEN INFERIOR DE 0.3EM */
+  color: #CC6600;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 0.3em;
+}
+/* APARTADO 3 */
+/* AÑADIR ELEMENTOS DE MENU  */
+#menu li {
+  /* MARGENES Y TAMAÑO DE LA LETRA 1EM Y 1.3 EM */
+  margin-right: 1em;
+  font-size: 1.3em;
+}
+/* COLOR DE LAS ANCLAS DE COLOR BLANCO */
+#menu li a {
+  color: white;
+}
+/* APARTADO 4 */
+/* AÑADIR EL LATERAL FONT SICE 9EM*/
+#lateral{
+  font-size: .9em;
+}
+/* AÑADIR A LAS ETIQUETAS SPAN FECHA EL COLOR GRIS Y QUE OCUPEN TODO */
+#lateral #noticias span.fecha {
+  display: block;
+  color: #999;
+}
+/* LATERAL DE NOTICIAS COLOR 003366 */
+#lateral #noticias h3 {
+  color: #003366;
+}
+
+/* APARTADO 5 */
+/* COLOR DE LOS ENLACES DE ARTICULO SON CC6600 */
+#contenido #principal .articulo a {
+  color: #CC6600;
+}
+
+#lateral #publicidad a {
+  color: #CC6600;
+}
+
+/* APARTADO 6 */
+/* PARRAFOS TIENEN UN MAGEN SUPERIOR DE 3EM */
+#contenido #principal .articulo p {
+  margin: .3em 0;
+}
+
+/* APARTADO 7 */
+/* SE LE AÑADE A LOS H2 DE CONTENEDOR EL COLOR BLANCO  
+REALIZADO MAS ARRIBA EN #contenido #secundario h2{
+*/
+
+/* APARTADO 8 */
+/* SE LE AÑADE AL PIE UN COLOR MAS OSCURO #F8F8F8; COMO DE NOTICIAS Y A LAS 
+LETRAS DE COPYRIGHT UN POCO MAS OSCURAS  */
+#pie {
+  border-top: 1px solid rgb(100, 99, 99);
+  background:#F8F8F8;
+  color: #555;
+
+}

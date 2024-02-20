@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa de la ventana del navegador */
+    background-color: #f0f0f0; /* Color de fondo para visualizar el diseño */
+}
+
+.container {
+    min-width: 700px; /* Anchura mínima de la página */
+    max-width: 1000px; /* Anchura máxima de la página */
+    height: 100%; /* Altura completa de la ventana del navegador */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    position: relative; /* Posicionamiento relativo para el contenido absoluto */
+}
+
+.gift-box {
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 50%; /* Centrar verticalmente en relación con el contenedor */
+    left: 50%; /* Centrar horizontalmente en relación con el contenedor */
+    transform: translate(-50%, -50%); /* Centrar completamente */
+}
+
+.gift-box img {
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.content {
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 50%; /* Centrar verticalmente en relación con el contenedor */
+    left: 50%; /* Centrar horizontalmente en relación con el contenedor */
+    transform: translate(-50%, -50%); /* Centrar completamente */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+.title {
+    font-size: 24px; /* Tamaño del título */
+    letter-spacing: 0.3em; /* Espaciado entre las letras de FIND LOVE INSIDE */
+}
+
+.subtitle {
+    font-size: 18px; /* Tamaño del subtítulo */
+    letter-spacing: 0.2em; /* Espaciado entre las letras de MARY JAY */
+}

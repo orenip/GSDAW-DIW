@@ -1,0 +1,20 @@
+/* ALTURA DE CABECERA Y PIE 40 PX */
+.header, .footer {
+    height: 40px;
+}
+/* ALTURA BLOQUE GRIS 45 PX */
+.bloque-gris {
+    height: 45px;
+}
+/* ALTURA BLOQUES AZUL CLARO 150 PX*/
+.bloque-azul-claro {
+    height: 150px;
+}
+/* ALTURA BLOQUES AZUL OSCURO 80 PX */
+.bloque-azul-oscuro {
+    height: 80px;
+}
+/* ALTURA MINIMA BLOQUE ROJO 70PX */
+.bloque-rojo {
+    min-height: 70px;
+}
